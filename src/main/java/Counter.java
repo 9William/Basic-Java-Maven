@@ -11,6 +11,10 @@ public class Counter {
 	public void reset() {
 		count = 0;
 	}
+
+	public void increaseCount(int i) {
+		count = count + i
+	}
 	
 	public void increment() {
 		count++;
